@@ -8,7 +8,7 @@ for (let i = 0; i < numbers.length; i++) {
         console.log(num, "FizzBuzz");
     }
 
-    if (num % 3 === 0) {
+    else if (num % 3 === 0) {
         console.log("Fizz");
     }
     else if (num % 5 === 0 ) {
